@@ -32,6 +32,22 @@ composer dump-autoload
 
 
 
+## run app
+
+run
+
+``` sh
+php app.php
+```
+
+or run
+
+``` sh
+./app.php
+```
+
+
+
 ## Link
 
 * [PHP Composer](https://getcomposer.org/)
