@@ -1,0 +1,22 @@
+{
+    "name": "cute/demo",
+    "description": "The demo project for composer init",
+    "type": "project",
+    "homepage": "https://github.com/samwhelp/note-about-php-composer",
+    "require": {
+        "symfony/filesystem": "^7.1",
+        "symfony/console": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cute\\Demo\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "develop",
+            "email": "develop@home.heaven"
+        }
+    ]
+}
