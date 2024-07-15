@@ -24,4 +24,10 @@ composer init \
 #composer require symfony/console
 
 
+cat > .gitignore << EOF
+composer.lock
+vendor/*
+EOF
+
+
 cd "${OLDPWD}"
