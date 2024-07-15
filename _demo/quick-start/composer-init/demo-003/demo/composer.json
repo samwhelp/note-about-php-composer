@@ -6,8 +6,8 @@
     "homepage": "https://github.com/samwhelp/note-about-php-composer",
     "authors": [
         {
-            "name": "develop",
-            "email": "develop@home.heaven"
+            "name": "developer",
+            "email": "developer@home.heaven"
         }
     ],
     "autoload": {

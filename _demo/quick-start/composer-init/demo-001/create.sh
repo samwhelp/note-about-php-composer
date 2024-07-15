@@ -13,7 +13,7 @@ composer init \
 	--type="project" \
 	--license="MIT" \
 	--homepage="https://github.com/samwhelp/note-about-php-composer" \
-	--author="develop <develop@home.heaven>" \
+	--author="developer <developer@home.heaven>" \
 	--require="symfony/filesystem:^7.1" \
 	--require="symfony/console:^7.1" \
 	--autoload="" \
