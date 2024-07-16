@@ -25,6 +25,7 @@ parent: 入門
 
 | 相關文件 |
 | --- |
+| [Basic usage](https://getcomposer.org/doc/01-basic-usage.md) |
 | [composer init](https://getcomposer.org/doc/03-cli.md#init) |
 | [The composer.json schema](https://getcomposer.org/doc/04-schema.md) |
 
