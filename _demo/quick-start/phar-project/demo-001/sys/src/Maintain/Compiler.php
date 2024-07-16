@@ -22,6 +22,12 @@ use Symfony\Component\Filesystem\Path;
 
 class Compiler {
 
+	function __construct() {
+
+		$this->_ProjectRootDirPath = dirname(dirname(dirname(__DIR__)));
+
+	}
+
 
 	public function run () {
 
