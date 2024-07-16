@@ -50,11 +50,17 @@ class Compiler {
 			"lib",
 			"sys"
 		] as $path) {
+
 			$filesystem->mirror(
 				"{$project_root_dir_path}/{$path}",
 				"{$project_root_dir_path}/tmp/prj/{$path}"
 			);
 
+		}
+
+
+		if (file_exists("{$project_root_dir_path}/demo.phar")) {
+			$filesystem->remove("{$project_root_dir_path}/demo.phar");
 		}
 
 

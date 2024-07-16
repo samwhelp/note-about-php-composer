@@ -1,3 +1,4 @@
 composer.lock
 lib/vendor/*
 tmp/*
+demo.phar
