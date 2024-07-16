@@ -10,15 +10,18 @@ class Compiler {
 
 		var_dump(__FILE__);
 
-		var_dump($this->_ProjectRootPath);
+
+		$project_root_dir_path = $this->_ProjectRootDirPath;
+
+		var_dump($project_root_dir_path);
 
 	}
 
-	protected string $_ProjectRootPath = '';
+	protected string $_ProjectRootDirPath = '';
 
-	public function setProjectRootPath (string $path) {
+	public function setProjectRootDirPath (string $path) {
 
-		$this->_ProjectRootPath = $path;
+		$this->_ProjectRootDirPath = $path;
 
 		return $this;
 	}
