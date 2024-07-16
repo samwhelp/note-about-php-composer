@@ -9,5 +9,5 @@ has_children: true
 
 | 指令 |
 | --- |
-| [安裝 php-cli](https://samwhelp.github.io/note-about-php-composer/read/command/composer.html) |
+| [composer](https://samwhelp.github.io/note-about-php-composer/read/command/composer.html) |
 
