@@ -75,5 +75,41 @@ cd demo
 
 | 模式 |
 | ------------------------------------------------------ |
-| 「`互動模式`」 | 執行「`composer init`」                  |
-| 「`腳本模式`」 | 執行「`composer init --no-interaction`」 |
+| 「[互動模式](#互動模式)」 | 執行「`composer init`」                  |
+| 「[腳本模式](#腳本模式)」 | 執行「`composer init --no-interaction`」 |
+
+
+
+
+#### 互動模式
+
+執行「`composer init`」進入「`互動模式`」，
+
+只要跟著「提示問題」回答，最後就會」產生「composer.json」這個設定檔案。
+
+
+
+
+#### 腳本模式
+
+執行「`composer init`」有加入「`--no-interaction`」這個參數，就會進入「`腳本模式`」，
+
+同時我們也會加入一些參數，舉例如下
+
+其他的參數，就是雷同「`互動模式`」的「提示問題」，加上「您的回答」。
+
+``` sh
+composer init \
+	--name="cute/demo" \
+	--description="The demo project for composer init" \
+	--type="project" \
+	--license="MIT" \
+	--homepage="https://github.com/samwhelp/note-about-php-composer" \
+	--author="developer <developer@home.heaven>" \
+	--require="symfony/filesystem:^7.1" \
+	--require="symfony/console:^7.1" \
+	--autoload="" \
+	--no-interaction
+```
+
+> 上面的步驟，可以參考「[範例腳本](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json)」，並且對照觀看產生的「[composer.json](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json)」
