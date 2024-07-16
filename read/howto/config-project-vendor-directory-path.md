@@ -44,7 +44,7 @@ parent: 如何
 
 執行「`composer install`」之後，預設產生一個資料夾「`vendor`」。
 
-我們也可以將「`vendor`」這個資料夾設定到別的路徑。
+我們也可以將「`vendor`」這個資料夾，設定到別的路徑。
 
 
 * [修改「composer.json」](#修改composerjson)
