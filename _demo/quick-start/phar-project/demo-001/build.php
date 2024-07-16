@@ -3,5 +3,5 @@
 
 	define('THE_PRJ_ROOT', __DIR__);
 
-	require_once(THE_PRJ_ROOT . '/boot/start/phar.php');
+	require_once(THE_PRJ_ROOT . '/boot/start/build.php');
 

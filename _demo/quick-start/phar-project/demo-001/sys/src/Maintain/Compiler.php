@@ -64,6 +64,21 @@ class Compiler {
 		}
 
 
+$stub = sprintf(<<<EOF
+#!/usr/bin/env php
+<?php
+Phar::mapPhar('demo.phar');
+define('THE_PRJ_ROOT', 'phar://demo.phar');
+define('THE_BUILD_TIMESTAMP', '%s');
+define('THE_BIN_DIR_PATH', realpath(__FILE__));
+require THE_PRJ_ROOT . '/boot/start/main.php';
+__HALT_COMPILER();
+?>
+EOF, time());
+
+		echo $stub;
+
+
 		return 0;
 
 	}
