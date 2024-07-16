@@ -1,5 +1,5 @@
 ---
-title: composer-help
+title: composer help
 nav_order: 8010
 has_children: false
 parent: composer
@@ -7,7 +7,7 @@ grand_parent: 指令
 ---
 
 
-# composer-help
+# composer help
 
 
 

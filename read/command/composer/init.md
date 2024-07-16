@@ -1,5 +1,5 @@
 ---
-title: composer-init
+title: composer init
 nav_order: 8020
 has_children: false
 parent: composer
@@ -7,7 +7,7 @@ grand_parent: 指令
 ---
 
 
-# composer-init
+# composer init
 
 
 
