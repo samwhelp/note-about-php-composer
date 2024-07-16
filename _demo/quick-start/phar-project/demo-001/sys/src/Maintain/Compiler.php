@@ -25,6 +25,8 @@ class Compiler {
 
 	public function run () {
 
+		//ini_set('phar.readonly', 0);
+
 		var_dump(__FILE__);
 
 		$project_root_dir_path = $this->_ProjectRootDirPath;
@@ -76,8 +78,20 @@ __HALT_COMPILER();
 ?>
 EOF, time());
 
-		echo $stub;
+		//echo $stub;
 
+		echo "{$project_root_dir_path}/demo.phar";
+
+		$phar = new \Phar("{$project_root_dir_path}/demo.phar");
+		$phar->setAlias('demo.phar');
+		$phar->setStub($stub);
+		$phar->buildFromDirectory("{$project_root_dir_path}/tmp/prj");
+		$phar->compressFiles(\Phar::GZ);
+		$phar->stopBuffering();
+
+
+		// Setting Phar is Executable
+		chmod("{$project_root_dir_path}/demo.phar", 0755);
 
 		return 0;
 
