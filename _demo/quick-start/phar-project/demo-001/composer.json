@@ -17,7 +17,8 @@
     "autoload": {
         "psr-4": {
             "Cute\\": "sys/src/Cute",
-            "App\\": "app/src/App"
+            "App\\": "app/src/App",
+            "Maintain\\": "sys/src/Maintain"
         }
     },
     "require": {
