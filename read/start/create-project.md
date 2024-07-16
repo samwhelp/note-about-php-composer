@@ -234,6 +234,63 @@ composer require symfony/console
 composer dump-autoload
 ```
 
-接著我們要來測試
+接著我們要來測試，我有將[完整的範例](https://github.com/samwhelp/note-about-php-composer/tree/gh-pages/_demo/quick-start/composer-init/demo-003/demo)放在「GitHub」上
+
+執行下面指令，產生「[src/Cute](https://github.com/samwhelp/note-about-php-composer/tree/gh-pages/_demo/quick-start/composer-init/demo-003/demo/src/Cute)」這個資料夾。
+
+``` sh
+mkdir -p src/Cute
+```
+
+接著產生一個檔案「[src/Cute/Demo.php](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-003/demo/src/Cute/Demo.php)」，內容如下。
 
 
+``` php
+<?php
+
+namespace Cute;
+
+class Demo {
+
+	public function run () {
+
+		var_dump(__CLASS__);
+
+	}
+
+}
+
+```
+
+
+接著產生一個檔案「[app.php](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-003/demo/app.php)」，內容如下。
+
+
+``` php
+#!/usr/bin/env php
+<?php
+
+	require_once (__DIR__ . '/vendor/autoload.php');
+
+	(new \Cute\Demo())
+		->run();
+
+```
+
+這時候，我們就可以執行下面指令，來測試
+
+``` sh
+php app.php
+```
+
+也可以執行下面指令，將「`app.php`」設定為「`可執行`」，
+
+``` sh
+chmod 755 app.php
+```
+
+接著就可以執行下面指令，來測試，等同執行「`php app.php`」
+
+``` sh
+./app.php
+```
