@@ -57,6 +57,12 @@ parent: 指令
 composer
 ```
 
+或是執行
+
+``` sh
+composer list
+```
+
 顯示
 
 ```
