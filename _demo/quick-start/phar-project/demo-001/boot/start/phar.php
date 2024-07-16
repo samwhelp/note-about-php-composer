@@ -3,4 +3,5 @@
 	require_once (THE_PRJ_ROOT . '/boot/loader/main.php');
 
 	(new Maintain\Compiler())
-			->run();
+		->setProjectRootPath(THE_PRJ_ROOT)
+		->run();
