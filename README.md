@@ -11,17 +11,39 @@
 
 ## 主題
 
-* [範例](#範例)
+* [腳本](#腳本)
+* [入門](#入門)
+* [如何](#如何)
 * [相關筆記](#相關筆記)
 
 
 
 
-## 範例
+## 腳本
 
-| 範例 |
+| 腳本 |
 | --- |
 | [Demo](https://github.com/samwhelp/note-about-php-composer/tree/gh-pages/_demo) |
+
+
+
+
+## 入門
+
+| 入門 |
+| --- |
+| [安裝 php-cli](https://samwhelp.github.io/note-about-php-composer/read/start/install-php-cli.html) |
+| [安裝 composer](https://samwhelp.github.io/note-about-php-composer/read/start/install-composer.html) |
+
+
+
+
+## 如何
+
+| 如何 |
+| --- |
+| [Config global vendor binaries directory to to path environment variable](https://samwhelp.github.io/note-about-php-composer/read/howto/config-composer-global-vendor-binaries-directory-to-path-environment-variable.html) |
+
 
 
 
