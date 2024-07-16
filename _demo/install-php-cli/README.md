@@ -48,4 +48,4 @@
 
 | Archlinux Package |
 | --- |
-| [php]https://archlinux.org/packages/extra/x86_64/php/) |
+| [php](https://archlinux.org/packages/extra/x86_64/php/) |
