@@ -52,7 +52,7 @@ wget -c 'https://getcomposer.org/download/latest-stable/composer.phar'
 mkdir -p ~/.local/bin
 ```
 
-執行下面指令，將「composer.phar」放到「`~/.local/bin`」這個資料夾，並且更名為「`composer`」。
+執行下面指令，將「`composer.phar`」放到「`~/.local/bin`」這個資料夾，並且更名為「`composer`」。
 
 ``` sh
 mv composer.phar ~/.local/bin/composer
