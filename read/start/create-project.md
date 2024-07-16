@@ -45,7 +45,8 @@ parent: 入門
 * [產生「專案資料夾」](#產生專案資料夾)
 * [產生「composer.json」](#產生composerjson)
 * [執行「composer install」](#執行composer-install)
-
+* [加入所需「Package」](#加入所需package)
+* [修改「autoload」](#修改autoload)
 
 
 
@@ -121,7 +122,7 @@ composer init \
 
 
 
-## 執行「composer install」
+### 執行「composer install」
 
 產生了「`composer.json`」之後，接著就可以執行下面指令
 
@@ -148,9 +149,9 @@ symfony
 ```
 
 
-## 加入「.gitignore」
+### 加入「.gitignore」
 
-產生一個檔案「.gitignore」，內容如下
+產生一個檔案「`.gitignore`」，內容如下
 
 ```
 composer.lock
@@ -161,4 +162,44 @@ vendor/*
 
 一般**不會**將「`composer.lock`」以及「`vendor`」「推送(push)」到「GitHub」上，
 
-所以我們要產生「.gitignore」這個檔案，裡面列的檔案規則，就不會納入「git」的管理。
+所以我們要產生「`.gitignore`」這個檔案，裡面列的檔案規則，就不會納入「git」的管理。
+
+
+
+
+### 加入所需「Package」
+
+剛剛前面在執行「`composer init --no-interaction`」時，
+
+我們有加入「`--require="symfony/filesystem:^7.1"`」和「`--require="symfony/console:^7.1"`」這兩個參數，
+
+我們其實也可以在產生了「`composer.json`」之後，執行下面的指令加入。
+
+執行下面指令，加入「[symfony/filesystem](https://symfony.com/doc/current/components/filesystem.html)」
+
+``` sh
+composer require symfony/filesystem
+```
+
+執行下面指令，加入「[symfony/console](https://symfony.com/doc/current/components/console.html)」
+
+``` sh
+composer require symfony/console
+```
+
+> 注意，在還沒產生「`composer.json`」之前，也可以直接執行「`composer require`」，也會產生「`composer.json`」，內容類似如下。
+
+
+``` json
+{
+    "require": {
+        "symfony/filesystem": "^7.1",
+        "symfony/console": "^7.1"
+    }
+}
+```
+
+
+
+
+### 修改「autoload」
