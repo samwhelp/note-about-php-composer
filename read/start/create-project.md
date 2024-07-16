@@ -299,3 +299,12 @@ chmod 755 app.php
 ``` sh
 ./app.php
 ```
+
+
+
+
+## 相關議題
+
+| 相關議題 |
+| --- |
+| [修改「vendor」這個資料夾的預設放置路徑](https://samwhelp.github.io/note-about-php-composer/read/howto/config-project-vendor-directory-path.html) |

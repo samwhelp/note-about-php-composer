@@ -87,4 +87,4 @@ Run the "diagnose" command to get more detailed diagnostics output.
 
 | 相關議題 |
 | --- |
-| [Config global vendor binaries directory to to path environment variable](https://samwhelp.github.io/note-about-php-composer/read/howto/config-composer-global-vendor-binaries-directory-to-path-environment-variable.html)
+| [Config global vendor binaries directory to to path environment variable](https://samwhelp.github.io/note-about-php-composer/read/howto/config-composer-global-vendor-binaries-directory-to-path-environment-variable.html) |
