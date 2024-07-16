@@ -41,7 +41,29 @@ class Compiler {
 	 		$filesystem->remove("{$project_root_dir_path}/tmp");
 		}
 
+
+
+
+		foreach ([
+			"app",
+			"boot",
+			"lib",
+			"sys"
+		] as $path) {
+			$filesystem->mirror(
+				"{$project_root_dir_path}/{$path}",
+				"{$project_root_dir_path}/tmp/prj/{$path}"
+			);
+
+		}
+
+
+		return 0;
+
 	}
+
+
+
 
 	protected string $_ProjectRootDirPath = '';
 
