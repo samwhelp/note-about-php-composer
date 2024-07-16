@@ -1,7 +1,7 @@
 ---
 title: composer
 nav_order: 8010
-has_children: false
+has_children: true
 parent: 指令
 ---
 
@@ -13,9 +13,20 @@ parent: 指令
 
 ## 主題
 
+* [相關文件](#相關文件)
+* [相關議題](#相關議題)
 * [default action](#default-action)
 * [help](#help)
-* [相關議題](#相關議題)
+* [more action](#more-action)
+
+
+
+
+## 相關文件
+
+| 相關文件 |
+| --- |
+| [composer](https://getcomposer.org/doc/03-cli.md) |
 
 
 
@@ -26,6 +37,15 @@ parent: 指令
 | --- |
 | [安裝 composer](https://samwhelp.github.io/note-about-php-composer/read/start/install-composer.html)
 
+
+
+
+## more action
+
+| composer action |
+| --- |
+| [help](composer/help) |
+| [init](composer/init) |
 
 
 
