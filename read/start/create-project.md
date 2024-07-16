@@ -123,7 +123,7 @@ composer init \
 
 ## 執行「composer install」
 
-產生了「composer.json」之後，接著就可以執行下面指令
+產生了「`composer.json`」之後，接著就可以執行下面指令
 
 ``` sh
 composer install
@@ -148,4 +148,17 @@ symfony
 ```
 
 
-## 加入「composer install」
+## 加入「.gitignore」
+
+產生一個檔案「.gitignore」，內容如下
+
+```
+composer.lock
+vendor/*
+```
+
+這個動作不是必要的，未來我們若要將這專案放到「GitHub」上，
+
+一般**不會**將「`composer.lock`」以及「`vendor`」「推送(push)」到「GitHub」上，
+
+所以我們要產生「.gitignore」這個檔案，裡面列的檔案規則，就不會納入「git」的管理。
