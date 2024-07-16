@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-	require_once (__DIR__ . '/boot/main.php');
+	define('THE_PRJ_ROOT', __DIR__);
 
-	(new \App\Demo())
-			->run();
+	require_once(THE_PRJ_ROOT . '/boot/start/main.php');
+
