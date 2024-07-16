@@ -31,7 +31,7 @@
 
 ## 入門
 
-| 入門 |
+| [入門](https://samwhelp.github.io/note-about-php-composer/read/start.html) |
 | --- |
 | [安裝 php-cli](https://samwhelp.github.io/note-about-php-composer/read/start/install-php-cli.html) |
 | [安裝 composer](https://samwhelp.github.io/note-about-php-composer/read/start/install-composer.html) |
@@ -42,7 +42,7 @@
 
 ## 如何
 
-| 如何 |
+| [如何](https://samwhelp.github.io/note-about-php-composer/read/howto.html) |
 | --- |
 | [Config global vendor binaries directory to to path environment variable](https://samwhelp.github.io/note-about-php-composer/read/howto/config-composer-global-vendor-binaries-directory-to-path-environment-variable.html) |
 
@@ -51,7 +51,7 @@
 
 ## 指令
 
-| 指令 |
+| [指令](https://samwhelp.github.io/note-about-php-composer/read/command.html) |
 | --- |
 | [composer](https://samwhelp.github.io/note-about-php-composer/read/command/composer.html) |
 
