@@ -39,9 +39,11 @@ class Compiler {
 
 		$filesystem = new Filesystem();
 
+
 		$target_phar_file_name = $this->_TargetPharFileName;
 
 		$target_phar_file_path = "{$project_root_dir_path}/{$target_phar_file_name}";
+
 
 		$project_tmp_dir_path = "{$project_root_dir_path}/tmp";
 
