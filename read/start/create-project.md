@@ -44,6 +44,8 @@ parent: 入門
 
 * [產生「專案資料夾」](#產生專案資料夾)
 * [產生「composer.json」](#產生composerjson)
+* [執行「composer install」](#執行composer-install)
+
 
 
 
@@ -60,6 +62,8 @@ mkdir -p demo
 ``` sh
 cd demo
 ```
+
+
 
 
 ### 產生「composer.json」
@@ -112,4 +116,36 @@ composer init \
 	--no-interaction
 ```
 
-> 上面的步驟，可以參考「[範例腳本](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json)」，並且對照觀看產生的「[composer.json](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json)」
+> 上面的步驟，可以參考「[範例腳本](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/create.sh)」，並且對照觀看產生的「[composer.json](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json)」
+
+
+
+
+## 執行「composer install」
+
+產生了「composer.json」之後，接著就可以執行下面指令
+
+``` sh
+composer install
+```
+
+沒有例外的狀況下，就會產生「`composer.lock`」這個檔案，和一個資料夾「`vendor`」。
+
+```
+demo/
+├── composer.json
+├── composer.lock
+└── vendor
+```
+
+而「`vendor`」裡面的檔案，類似如下，除了「`autoload.php`」是檔案，其他的是資料夾。
+
+```
+autoload.php
+composer
+psr
+symfony
+```
+
+
+## 加入「composer install」
