@@ -203,3 +203,37 @@ composer require symfony/console
 
 
 ### 修改「autoload」
+
+在上面執行「`composer init --no-interaction`」時，
+
+有加入一個參數「`--autoload=""`」
+
+會產生對應的「`composer.json`」[設定片段](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-002/demo/composer.json#L11-L15)如下
+
+``` json
+    "autoload": {
+        "psr-4": {
+            "Cute\\Demo\\": ""
+        }
+    },
+```
+
+我們直接用「純文字編輯器」，編輯「`composer.json`」這個檔案，[修改如下](https://github.com/samwhelp/note-about-php-composer/blob/gh-pages/_demo/quick-start/composer-init/demo-003/demo/composer.json#L13-L17)
+
+``` json
+    "autoload": {
+        "psr-4": {
+            "Cute\\": "src/Cute"
+        }
+    },
+```
+
+接著執行下面指令，使其生效
+
+``` sh
+composer dump-autoload
+```
+
+接著我們要來測試
+
+
