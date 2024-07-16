@@ -70,10 +70,10 @@ $stub = sprintf(<<<EOF
 #!/usr/bin/env php
 <?php
 Phar::mapPhar('demo.phar');
-define('THE_PRJ_ROOT', 'phar://demo.phar');
+define('THE_PRJ_ROOT_DIR_PATH', 'phar://demo.phar');
 define('THE_BUILD_TIMESTAMP', '%s');
 define('THE_BIN_DIR_PATH', realpath(__FILE__));
-require_once(THE_PRJ_ROOT . '/boot/start/main.php');
+require_once(THE_PRJ_ROOT_DIR_PATH . '/boot/start/main.php');
 __HALT_COMPILER();
 ?>
 EOF, time());
