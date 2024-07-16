@@ -1,12 +1,12 @@
 ---
-title: 指令 / composer
+title: composer
 nav_order: 8010
 has_children: false
 parent: 指令
 ---
 
 
-# 指令 / composer
+# composer
 
 
 

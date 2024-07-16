@@ -14,6 +14,7 @@
 * [腳本](#腳本)
 * [入門](#入門)
 * [如何](#如何)
+* [指令](#指令)
 * [相關筆記](#相關筆記)
 
 
@@ -43,6 +44,15 @@
 | 如何 |
 | --- |
 | [Config global vendor binaries directory to to path environment variable](https://samwhelp.github.io/note-about-php-composer/read/howto/config-composer-global-vendor-binaries-directory-to-path-environment-variable.html) |
+
+
+
+
+## 指令
+
+| 指令 |
+| --- |
+| [composer](https://samwhelp.github.io/note-about-php-composer/read/command/composer.html) |
 
 
 
