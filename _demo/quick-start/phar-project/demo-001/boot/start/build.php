@@ -4,4 +4,5 @@
 
 	(new Maintain\Compiler())
 		->setProjectRootDirPath(THE_PRJ_ROOT_DIR_PATH)
+		->setTargetPharFileName('demo.phar')
 		->run();
