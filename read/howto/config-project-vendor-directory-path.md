@@ -64,7 +64,7 @@ parent: 如何
 
 
 
-## 執行「composer update」
+### 執行「composer update」
 
 修改「composer.json」完成後，可以執行下面指令
 
