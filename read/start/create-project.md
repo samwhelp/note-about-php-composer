@@ -152,6 +152,8 @@ symfony
 > 除了執行「`composer install`」，爾後也可以執行「`composer update`」。
 
 
+
+
 ### 加入「.gitignore」
 
 產生一個檔案「`.gitignore`」，內容如下
