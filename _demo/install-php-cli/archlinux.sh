@@ -15,8 +15,7 @@ archlinux_package_install () {
 	echo "##"
 	echo
 
-	sudo pacman -Sy --needed \
-		php-cli
+	sudo pacman -Sy --needed php
 
 
 	echo
