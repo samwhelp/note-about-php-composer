@@ -25,7 +25,10 @@ class Compiler {
 
 	function __construct() {
 
-		$this->_ProjectRootDirPath = dirname(dirname(dirname(__DIR__)));
+		//$this->_ProjectRootDirPath = dirname(dirname(dirname(__DIR__)));
+
+		$this->_ProjectRootDirPath = dirname(__DIR__, 3);
+
 
 	}
 
