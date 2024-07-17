@@ -1,3 +1,3 @@
 <?php
 
-	require_once(THE_PRJ_ROOT_DIR_PATH . '/lib/vendor/autoload.php');
+	require_once(dirname(__DIR__, 2) . '/lib/vendor/autoload.php');
