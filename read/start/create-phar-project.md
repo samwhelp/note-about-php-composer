@@ -131,7 +131,7 @@ require_once('phar://demo.phar/boot/start/main.php');
 
 ## 注意事項
 
-> 要產生「demo.phar」，需要將「`phar.readonly = Off`」，才能正常運作。
+> 要產生「demo.phar」，需要設定「`phar.readonly = Off`」，才能正常運作。
 
 編輯「`/etc/php.ini`」這個檔案。
 
