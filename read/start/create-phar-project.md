@@ -105,3 +105,12 @@ require_once(THE_PRJ_ROOT_DIR_PATH . '/boot/start/main.php');
 Phar::mapPhar('demo.phar');
 require_once('phar://demo.phar/boot/start/main.php');
 ```
+
+> 也就是會載入「demo.phar」裡面的「[boot/start/main.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/boot/start/main.php)」。
+
+
+
+
+對照沒有打包成「phar」的「[app.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/app.php)」。
+
+也是載入專案的「[boot/start/main.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/boot/start/main.php)」。
