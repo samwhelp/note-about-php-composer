@@ -3,13 +3,22 @@
 namespace App;
 
 
+
+
 class Demo {
 
-	public function run () {
+
+
+
+	public function run ()
+	{
 
 		(new \Cute\Model\DemoModel())
 			->run();
 
 	}
+
+
+
 
 }

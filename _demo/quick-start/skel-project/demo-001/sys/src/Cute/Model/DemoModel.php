@@ -3,10 +3,21 @@
 namespace Cute\Model;
 
 
+
+
 class DemoModel {
 
-	public function run () {
+
+
+
+	public function run ()
+	{
+
 		var_dump(__FILE__);
+
 	}
+
+
+
 
 }
