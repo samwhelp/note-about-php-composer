@@ -36,6 +36,7 @@
 | [安裝 php-cli](https://samwhelp.github.io/note-about-php-composer/read/start/install-php-cli.html) |
 | [安裝 composer](https://samwhelp.github.io/note-about-php-composer/read/start/install-composer.html) |
 | [產生新專案](https://samwhelp.github.io/note-about-php-composer/read/start/create-project.html) |
+| [產生「Phar」專案](https://samwhelp.github.io/note-about-php-composer/read/start/create-phar-project.html) |
 
 
 
