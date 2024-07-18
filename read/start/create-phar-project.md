@@ -66,6 +66,8 @@ parent: 入門
 
 ### 關於「phar」進入點
 
+> 關於「stub」的內容，可以閱讀「PHP / [Phar file stub](https://www.php.net/manual/en/phar.fileformat.stub.php)」。
+
 > 關於「phar」進入點，要觀看在「`stub`」那裡的「[程式碼片段](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/sys/src/Maintain/Compiler.php#L99)」如下。
 
 ``` php
@@ -114,7 +116,6 @@ require_once('phar://demo.phar/boot/start/main.php');
 
 > 也就是會載入「demo.phar」裡面的「[boot/start/main.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/boot/start/main.php)」。
 
-> 關於「stub」的內容，可以閱讀「PHP / [Phar file stub](https://www.php.net/manual/en/phar.fileformat.stub.php)」。
 
 
 
