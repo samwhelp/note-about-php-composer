@@ -18,15 +18,23 @@ use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Filesystem\Path;
 
 
+
+
 class Demo {
 
-	public function run () {
+
+
+
+	public function run ()
+	{
+
 		var_dump(__CLASS__);
 
 
 		$filesystem = new Filesystem();
 		$path=Path::normalize(sys_get_temp_dir().'/symfony/'.random_int(0, 1000));
 		var_dump($path);
+
 		try {
 			$filesystem->mkdir(
 				$path,
@@ -42,5 +50,8 @@ class Demo {
 
 
 	}
+
+
+
 
 }
