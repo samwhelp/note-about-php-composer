@@ -53,10 +53,10 @@ parent: 入門
 
 ### 參考專案
 
-> 參考下面兩個專案，實做了產生「phar」的專案。
+> 參考下面兩個專案，實作了產生「phar」的專案。
 
 
-| 專案 | 實做程式碼 |
+| 專案 | 實作程式碼 |
 | --- | -------- |
 | [Pointless](https://github.com/scarwu/Pointless) | [Pointless/scripts/build.php](https://github.com/scarwu/Pointless/blob/master/scripts/build.php)
 | [Composer](https://github.com/composer/composer) | [composer/src/Composer/Compiler.php](https://github.com/composer/composer/blob/main/src/Composer/Compiler.php) |
@@ -64,7 +64,7 @@ parent: 入門
 
 我寫了好幾個範例，可以參考上面的「[範例](#範例)」連結。
 
-編譯成「phar」的實做程式碼，主要放在專案的「[sys/src/Maintain/Compiler.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/sys/src/Maintain/Compiler.php)」
+編譯成「phar」的實作程式碼，主要放在專案的「[sys/src/Maintain/Compiler.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/sys/src/Maintain/Compiler.php)」
 
 
 ### 關於「phar」進入點
