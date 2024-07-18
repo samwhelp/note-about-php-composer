@@ -78,7 +78,7 @@ EOF, $target_phar_file_name, $target_phar_file_name, time());
 
 上面的片段，最後可以在「`demo.phar`」檔案開頭看到。
 
-舉例可以使用「`less demo.phar`」的內容。
+舉例：可以使用「`less demo.phar`」觀看「phar檔」的內容。
 
 ``` php
 #!/usr/bin/env php
