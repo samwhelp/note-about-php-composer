@@ -11,7 +11,7 @@
 
 ## 主題
 
-* [腳本](#腳本)
+* [範例](#範例)
 * [入門](#入門)
 * [如何](#如何)
 * [指令](#指令)
@@ -20,9 +20,9 @@
 
 
 
-## 腳本
+## 範例
 
-| 腳本 |
+| 範例 |
 | --- |
 | [Demo](https://github.com/samwhelp/note-about-php-composer/tree/gh-pages/_demo) |
 
