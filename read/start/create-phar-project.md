@@ -25,6 +25,7 @@ parent: 入門
 | 相關文件 |
 | --- |
 | PHP / [Phar](https://www.php.net/manual/en/book.phar.php) |
+| PHP / [Phar::mapPhar](https://www.php.net/manual/en/phar.mapphar.php) |
 
 
 
