@@ -57,7 +57,7 @@ parent: 指令
 composer
 ```
 
-或是執行 ()
+或是執行
 
 ``` sh
 composer list
