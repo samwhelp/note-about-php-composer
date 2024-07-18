@@ -48,7 +48,7 @@ parent: 如何
 
 
 * [修改「composer.json」](#修改composerjson)
-* [執行「composer update」](#執行composer-update)
+* [執行「composer install」](#執行composer-install)
 
 
 ### 修改「composer.json」
@@ -64,12 +64,12 @@ parent: 如何
 
 
 
-### 執行「composer update」
+### 執行「composer install」
 
 修改「composer.json」完成後，可以執行下面指令
 
 ``` sh
-composer update
+composer install
 ```
 
 就會產生新的「`vendor`」資料夾及其底下的檔案，到新的路徑。
