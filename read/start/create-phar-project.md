@@ -16,7 +16,7 @@ parent: 入門
 * [相關文件](#相關文件)
 * [範例](#範例)
 * [概略說明](#概略說明)
-
+* [注意事項](#注意事項)
 
 
 
@@ -27,7 +27,11 @@ parent: 入門
 | PHP / [Phar](https://www.php.net/manual/en/book.phar.php) |
 | PHP / [Phar file stub](https://www.php.net/manual/en/phar.fileformat.stub.php) |
 | PHP / [Phar::mapPhar](https://www.php.net/manual/en/phar.mapphar.php) |
-
+| PHP / [Supported Protocols and Wrappers](https://www.php.net/manual/en/wrappers.php) |
+| PHP / [phar://](https://www.php.net/manual/en/wrappers.phar.php) |
+| PHP / [List of php.ini directives](https://www.php.net/manual/en/ini.list.php) |
+| PHP / Phar / Runtime Configuration / [phar.readonly](https://www.php.net/manual/en/phar.configuration.php#ini.phar.readonly) |
+|
 
 
 
@@ -117,3 +121,19 @@ require_once('phar://demo.phar/boot/start/main.php');
 對照沒有打包成「phar」的「[app.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/app.php)」。
 
 也是載入專案的「[boot/start/main.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/boot/start/main.php)」。
+
+
+
+
+## 注意事項
+
+> 要產生「demo.phar」，需要將「`phar.readonly = Off`」，才能正常運作。
+
+編輯「`/etc/php.ini`」這個檔案。
+
+``` ini
+[Phar]
+; https://php.net/phar.readonly
+;phar.readonly = On
+phar.readonly = Off
+```
