@@ -57,11 +57,15 @@ parent: 指令
 composer
 ```
 
-或是執行
+或是執行 ()
 
 ``` sh
 composer list
 ```
+
+> Why `composer list`, See: Symfony / [Changing the Default Command](https://symfony.com/doc/current/components/console/changing_default_command.html).
+
+> The Console component will always run the ListCommand when no command name is passed. 
 
 顯示
 
