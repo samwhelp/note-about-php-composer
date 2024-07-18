@@ -64,8 +64,7 @@ parent: 入門
 
 我寫了好幾個範例，可以參考上面的「[範例](#範例)」連結。
 
-編譯成「phar」的實做程式碼，主要放
-在專案的「[sys/src/Maintain/Compiler.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/sys/src/Maintain/Compiler.php)」
+編譯成「phar」的實做程式碼，主要放在專案的「[sys/src/Maintain/Compiler.php](https://github.com/samwhelp/note-about-php-symfony/blob/gh-pages/_demo/quick-start/phar-project/demo-002/sys/src/Maintain/Compiler.php)」
 
 
 ### 關於「phar」進入點
