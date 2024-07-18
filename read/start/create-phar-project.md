@@ -142,4 +142,4 @@ require_once('phar://demo.phar/boot/start/main.php');
 phar.readonly = Off
 ```
 
-可以觀看「[官方文件](https://php.net/phar.readonly)」的說明。
+可以閱讀「[官方文件](https://php.net/phar.readonly)」的說明。
