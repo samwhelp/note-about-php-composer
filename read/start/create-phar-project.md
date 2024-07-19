@@ -130,6 +130,8 @@ require_once('phar://demo.phar/boot/start/main.php');
 
 ## 注意事項
 
+### 關於「phar.readonly」
+
 > 要產生「demo.phar」，需要設定「`phar.readonly = Off`」，才能正常運作。
 
 編輯「`/etc/php.ini`」這個檔案。
@@ -142,3 +144,28 @@ phar.readonly = Off
 ```
 
 可以閱讀「[官方文件](https://php.net/phar.readonly)」的說明。
+
+
+### 關於「`__HALT_COMPILER();`」和「`?>`」
+
+在「PHP / [Phar file stub](https://www.php.net/manual/en/phar.fileformat.stub.php)」這篇，有如下的一段注意事項
+
+```
+There are no restrictions on the contents of a Phar stub, except for the requirement that it conclude with __HALT_COMPILER();. The closing PHP tag
+
+?>
+
+may be included or omitted, but there can be no more than 1 space between the ; and the close tag
+
+?>
+
+or the phar extension will be unable to process the Phar archive's manifest.
+```
+
+關於「`stub`」可以有「`?>`([PHP Close Tag](https://www.php.net/manual/en/language.basic-syntax.phptags.php))」，也可以沒有。
+
+若是要加上「`?>`」，則是要保持「`__HALT_COMPILER();`」和「`?>`」之間有「一個空白」。
+
+我測試的經驗，若是「斷行」，編譯過程會幫我們校正，最後也是保持「一個空白」。
+
+不過為了保險起見，我們還是遵照規範，保持「一個空白」的寫法。
