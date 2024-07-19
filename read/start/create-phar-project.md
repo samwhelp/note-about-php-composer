@@ -146,7 +146,7 @@ phar.readonly = Off
 可以閱讀「[官方文件](https://php.net/phar.readonly)」的說明。
 
 
-### 關於「`__HALT_COMPILER();`」和「`?>`」
+### 關於「`__HALT_COMPILER();`」和「`?>`」之間，保持「一個空白」
 
 在「PHP / [Phar file stub](https://www.php.net/manual/en/phar.fileformat.stub.php)」這篇，有如下的一段注意事項
 
