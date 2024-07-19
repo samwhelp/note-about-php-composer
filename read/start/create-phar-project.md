@@ -131,7 +131,7 @@ require_once('phar://demo.phar/boot/start/main.php');
 ## 注意事項
 
 * [關於「phar.readonly」](#關於pharreadonly)
-* [在「`__HALT_COMPILER();`」和「`?>`」之間，保持「一個空白」](#關於__halt_compiler和之間保持一個空白)
+* [在「`__HALT_COMPILER();`」和「`?>`」之間，保持「一個空白」](#在__halt_compiler和之間保持一個空白)
 
 
 
