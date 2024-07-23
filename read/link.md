@@ -14,7 +14,7 @@ has_children: false
 
 * [Composer](https://getcomposer.org/)
 * GitHub / [composer](https://github.com/composer/composer)
-* [Packagist](https://packagist.com/)
+* [Packagist](https://packagist.org/)
 
 
 
